@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Patricia Dang - About Me</title>
+</head>
+
+<style type="text/css">
+    body {
+        background-color: honeydew;
+        text-align: center;
+    }
+    .parent {
+       position: relative;
+       max-width: 3000px;
+       
+   }
+   .child {
+       position: fixed;
+       top: 650px;
+       left: 1400px;
+       width: 250px;
+       border: dashed;
+       border-radius: 50px;
+       text-align: center;
+       background-color: honeydew;
+   }
+    #favThings {
+        color: salmon;
+    }
+   #div2 {
+       display: inline-block;
+       text-align: left;
+   }
+   #div3 {
+        word-wrap: break-word; 
+        width: 500px;
+        display: inline-block;
+        text-align: center;
+   }
+
+</style>
+
+<body>
+<div class="parent">
+    <div id="div1">
+        <h2>Patricia Dang</h2>
+        <h3>~*Welcome to my Webpage*~</h3>
+        <br>
+        <nav>
+            <a href="index.html">Welcome-About Me</a>
+            <a href="dangfamily.html">Dang Family</a>
+        </nav>
+    </div>
+        <p id="favThings">The following are my favorites:</p>
+    <div id="div2">
+        <ul>
+            <li>Family/Pets</li>
+            <li>Delicious Food</li>
+            <li>Exploring new places/Travel</li>
+        </ul>
+    </div>
+    <br>
+    <div id="div3">
+        <p>I enjoy traveling and trying new foods. One of my favorite travel destinations is beautiful Hawaii. I have
+            been
+            to the island of Oahu and stayed in Honolulu on every trip. The best memories of these trips are of walking
+            on
+            the amazing beaches and eating superb food.</p>
+    </div>
+        <p id="favThings">Click on the image to learn more about Hawaii:</p>
+        <a href="https://en.wikipedia.org/wiki/Hawaii" target="_blank"><img
+                src="https://images.livemint.com/img/2021/03/14/689x388/Doublerainbow_1615733709921_1615733723659.jpg"></a><br>
+    <div class="child">
+        <form>
+            <h3>~*About You*~</h3>
+            First Name:<br>
+            <input type="text" name="firstname"><br>
+            Favorite thing:<br>
+            <input type="text" name="favoritething"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male">
+            Male<br>
+            <input type="radio" name="gender" value="female">
+            Female<br>
+            <input type="button" name="submit" value="~*Submit*~">
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
